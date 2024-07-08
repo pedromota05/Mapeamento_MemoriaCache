@@ -17,20 +17,20 @@ O programa em Python consiste em emular os o tipo de mapeamento de memória cach
 Mapeamento Associativo por Conjunto<br>
 👨‍💻 Implementado por meio do endereço da MP. Cada endereço da MP pode ser visto como consistindo em três campos:
 
-&nbsp;&nbsp;• Os w bits menos significativos identificam uma palavra ou um byte dentro de um bloco da MP;
+&nbsp;&nbsp;• Os w bits menos significativos identificam uma palavra ou um byte dentro de um bloco da MP.
 
-&nbsp;&nbsp;• Os s bits restantes especificam um dos 2s blocos da MP;
+&nbsp;&nbsp;• Os s bits restantes especificam um dos 2s blocos da MP.
 
 &nbsp;&nbsp;• A lógica de cache interpreta esses s bits como uma tag de s - d bits (parte mais significativa) e um campo de conjunto de d bits. 
 
 &nbsp;&nbsp;• O segundo campo identifica um dos v = 2d conjuntos da cache.
 
 📄 Arquivos de Entrada (modo texto)<br>
-&nbsp;&nbsp;• Tamanho da MP (no máximo 256KB)
+&nbsp;&nbsp;• Tamanho da MP (no máximo 256KB).
 
-&nbsp;&nbsp;• Qtde de palavras por bloco na MP (2, 4 ou 8)
+&nbsp;&nbsp;• Qtde de palavras por bloco na MP (2, 4 ou 8).
 
-&nbsp;&nbsp;• Tamanho da cache (no máximo 32KB)
+&nbsp;&nbsp;• Tamanho da cache (no máximo 32KB).
 
 &nbsp;&nbsp;• Número de linhas por conjunto da cache (mínimo de 2 linhas/máximo é  número de linhas/2).
 
@@ -60,7 +60,7 @@ Para executar a opção 1, utilize o arquivo .txt chamado entrada, contendo os s
 16 //Tamanho da cache
 4 //Número de linhas por conjunto
 
-Para executar a opção 2, informe um endereço da memória principal em formato binário
+Para executar a opção 2, informe um endereço da memória principal em formato binário.
 
 Para executar a opção 3, utilize o arquivo .txt chamado enderecos, contendo uma sequência de endereços da memória principal:
 000000000000
